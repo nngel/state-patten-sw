@@ -1,3 +1,4 @@
 # state-patten-sw
 
-Main.java
+**Lab SW2 State Pattern AccountTest**\
+Run `Main.java`
