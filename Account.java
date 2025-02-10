@@ -9,7 +9,6 @@ public class Account{
         setBalance(balance);
         setState(new ActiveState());
     }
-
     public AccountState getState() {
         return state;
     }
@@ -26,27 +25,19 @@ public class Account{
         return accountNumber;
     }
     public void deposit(double input){
-
         this.getState().deposit(this, input);
     }
     public void withraw(double input){
-        
         this.getState().withraw(this, input);
     }
     public void activate(){
         this.getState().activate(this);
-
-        System.out.println();
     }
     public void suspend(){
         this.getState().suspend(this);
-
-        System.out.println();
     }
     public void close(){
         this.getState().close(this);
-
-        System.out.println();
     }
     
 }

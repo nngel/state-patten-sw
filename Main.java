@@ -1,6 +1,9 @@
 public class Main{
     public static void main(String[] args)
     {
+        //Intro
+        System.out.println("=== Bank Account Demo ===\n");
+
         //Init
         Account acc1 = new Account("1234", 10000);
 
@@ -34,6 +37,8 @@ public class Main{
         //Deposit
         acc1.deposit(1000);
 
+
+        System.out.println("\n--- END PROGRAM ---");
 
     }
 }
